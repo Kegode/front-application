@@ -1,0 +1,67 @@
+
+    body{
+      background-color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav{
+      background-color: orangered;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+    nav ul{
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li{
+      margin: 0 20px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: bold;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 50px;
+    }
+    nav ul li a:hover{
+      background-color: white;
+    }
+    /*div{*/
+    /*  background-color: brown;*/
+    /*  height: 100px;*/
+    /*  color: white;*/
+    /*}*/
+    .one{
+      background-color: black;
+      height: 200px;
+    }
+    .three{
+      background-color: blue;
+      height: 50px;
+      color: red;
+    }
+    #four{
+       background-color: aqua;
+      height: 120px;
+      color: blue;
+    }
+    #five{
+       background-color: black;
+      height: 150px;
+      color: chartreuse;
+    }
+
+    .background-image{
+        background-image: url("https://cdn.pixabay.com/photo/2024/06/07/14/08/ai-generated-8814733_960_720.png");
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+        border-radius: 20px;
+        margin: 20px;
+    }
